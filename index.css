@@ -56,3 +56,10 @@ button {
     font-weight: bold;
 }
 
+/* Mobile fix */
+@media (max-width: 768px) {
+    body {
+        background-attachment: scroll;
+    }
+}
+
